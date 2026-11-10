@@ -515,7 +515,7 @@ if (isset($_SESSION['U_spprivilegio']) and in_array("m_reginf", $_SESSION['U_spp
                     <div class="form-group">
                       <label for="id" class="col-sm-3 control-label">Consta / Incluye:</label>
                       <div class="col-sm-9">
-                        <textarea class="form-control" type="text" id="caracteristica" name="caracteristica" value="<?php echo $_POST['caracteristica']; ?>" placeholder="Accesorios"></textarea>
+                        <textarea class="form-control" type="text" id="caracteristica" name="caracteristica" value="<?php if (isset($_POST['caracteristicas'])) echo $_POST['caracteristica']; ?>" placeholder="Accesorios"></textarea> <!-- monaso 09/11/2026 -->
                       </div>
                     </div>
                     <div class="form-group">

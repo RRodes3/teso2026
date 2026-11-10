@@ -3,7 +3,7 @@
 # Type="MYSQL"
 # HTTP="true"
 $hostname_conexion = "localhost";
-$database_conexion = "bdteso2026";
+$database_conexion = "bdteso2027";       /* monaso 09/11/2026 */
 $username_conexion = "root";
 $password_conexion = "";
 /*
