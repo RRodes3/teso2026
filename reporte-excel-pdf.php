@@ -16,7 +16,7 @@ if ($fechaInicio > $fechaFin) {
 
 /* 🔌 Conexión BD */
 $host = "localhost";
-$db   = "bdteso2026";
+$db   = "bdteso2027";
 $user = "root";
 $pass = "";
 
