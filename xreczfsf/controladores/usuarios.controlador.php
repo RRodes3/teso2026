@@ -15,7 +15,7 @@ class ControladorUsuarios{
 
 			   	$encriptar = crypt($_POST["ingPassword"], '$2a$07$asxx54ahjppf45sd87a5a4dDDGsystemdev$');
 
-				$tabla = "usuarios";
+				$tabla = "usuarios";    
 
 				$item = "usuario";
 				$valor = $_POST["ingUsuario"];
@@ -238,7 +238,7 @@ class ControladorUsuarios{
 
 	static public function ctrMostrarUsuarios($item, $valor){
 
-		$tabla = "usuarios";
+		$tabla = "usuarios";     
 
 		$respuesta = ModeloUsuarios::MdlMostrarUsuarios($tabla, $item, $valor);
 
@@ -334,7 +334,7 @@ class ControladorUsuarios{
 
 				}
 
-				$tabla = "usuarios";
+				$tabla = "usuarios";    
 
 				if($_POST["editarPassword"] != ""){
 
@@ -434,7 +434,7 @@ class ControladorUsuarios{
 
 		if(isset($_GET["idUsuario"])){
 
-			$tabla ="usuarios";
+			$tabla ="usuarios";   
 			$datos = $_GET["idUsuario"];
 
 			if($_GET["fotoUsuario"] != ""){
