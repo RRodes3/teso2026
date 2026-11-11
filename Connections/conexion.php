@@ -3,7 +3,7 @@
 # Type="MYSQL"
 # HTTP="true"
 $hostname_conexion = "localhost";
-$database_conexion = "bdteso2027";       /* monaso 09/11/2026 */
+$database_conexion = "bdteso2027";
 $username_conexion = "root";
 $password_conexion = "";
 /*
@@ -20,8 +20,7 @@ if (!isset($_SESSION)) {
   session_start();
 } 
 if (isset($_SESSION['U_spidus'])){
-$idusuario = $_SESSION['U_spidus'];
- 
+	$idusuario = $_SESSION['U_spidus'];
 }
 
 function limpiarCadena($valor)

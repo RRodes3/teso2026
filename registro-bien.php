@@ -515,13 +515,13 @@ if (isset($_SESSION['U_spprivilegio']) and in_array("m_reginf", $_SESSION['U_spp
                     <div class="form-group">
                       <label for="id" class="col-sm-3 control-label">Consta / Incluye:</label>
                       <div class="col-sm-9">
-                        <textarea class="form-control" type="text" id="caracteristica" name="caracteristica" value="<?php if (isset($_POST['caracteristicas'])) echo $_POST['caracteristica']; ?>" placeholder="Accesorios"></textarea> <!-- monaso 09/11/2026 -->
+                        <textarea class="form-control" type="text" id="caracteristica" name="caracteristica" value="<?php if(isset($_POST['caracteristica'])) echo $_POST['caracteristica']; ?>" placeholder="Accesorios"></textarea>    
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="id" class="col-sm-3 control-label">Gestor:</label>
                       <div class="col-sm-9">
-                        <input name="codcolor" type="text" class="form-control" id="codcolor" list="datalistacolor" autocomplete="off" value="<?php if (isset($_POST['codcolor'])) echo $_POST['codcolor']; ?>"" placeholder=" Escribe o seleccione el contacto">
+                        <input name="codcolor" type="text" class="form-control" id="codcolor" list="datalistacolor" autocomplete="off" value="<?php if (isset($_POST['codcolor'])) echo $_POST['codcolor']; ?>" placeholder=" Escribe o seleccione el contacto">
                         <datalist id="datalistacolor">
                           <?php
                           $rs = mysqli_query($conexion, "SELECT distinct codcolor FROM bien order by codcolor");

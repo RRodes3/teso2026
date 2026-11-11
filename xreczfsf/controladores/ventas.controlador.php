@@ -412,7 +412,7 @@ class ControladorVentas{
 	SUMA TOTAL VENTAS
 	=============================================*/
 
-	static public function ctrSumaTotalVentas(){
+	static public function ctrSumaTotalVentas(){       /* monaso 11/11/2026 */
 
 		$tabla = "ventas";
 
