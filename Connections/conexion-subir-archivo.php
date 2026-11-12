@@ -3,7 +3,7 @@
 define("SERVIDOR","127.0.0.1");
 define("USUARIO","root");
 define("CLAVE","");
-define("BASE_DATOS","bdteso2026");
+define("BASE_DATOS","bdteso2027");
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

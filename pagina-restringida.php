@@ -13,7 +13,7 @@ header("Location: index.php");
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Sistema Teso</title>
   <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
-  <meta name="author" content="Eduardo Sandoval">
+  <meta name="Powered by" content="Tecnologías de la Información - Laboratorio Teso">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="estilos/font-awesome/css/font-awesome.min.css">
